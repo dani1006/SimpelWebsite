@@ -1,0 +1,237 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.wrapper {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(77, 7, 148);
+}
+.menu {
+  float: right;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  background: rgb(200, 166, 233);
+  z-index: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+nav ul button {
+  margin: 1rem 0;
+  background-color: rgb(113, 113, 202);
+  box-shadow: none;
+  font-family: "Times New Roman", Times, serif;
+  width: 80px;
+  height: 25px;
+  color: white;
+  border-radius: 0.6em;
+  cursor: pointer;
+  place-items: left;
+}
+
+div img {
+  width: 100%;
+  height: 20%;
+}
+#hitung {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: center;
+  height: 250px;
+  color: white;
+  background-color: rgb(105, 105, 201);
+}
+
+div label {
+  font-size: 50px;
+  padding: 0px 25px 0px 25px;
+}
+div h3 {
+  font-size: 30px;
+  padding: 20px 20px;
+}
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+.kolom {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: blueviolet;
+}
+span {
+  color: orange;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: blueviolet;
+  width: 100%;
+  line-height: 50px;
+}
+#aboutme {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#musik {
+  margin: 0;
+  padding: 0;
+}
+#hobi {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: blueviolet;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-lihat:hover {
+  background: orange;
+  text-decoration: none;
+}
+a.tbl-lihat {
+  background: rgb(166, 125, 204);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: azure;
+  cursor: pointer;
+  font-weight: bold;
+}
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+.hobi-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.macam {
+  width: 20%;
+  margin: 0 auto;
+}
+.macam img {
+  width: 100%;
+  height: 80%;
+}
+.macam p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  color: orange;
+}
+.footer-section h1 {
+  font-size: 30px;
+  color: rgb(6, 6, 128);
+}
+
+td {
+  padding: 10px 10px;
+}
+#contact {
+  background-color: rgb(245, 225, 188);
+  padding: 50px 0px 50px 0px;
+}
+#kirim {
+  margin: 1rem 0;
+  background-color: rgb(113, 113, 202);
+  box-shadow: none;
+  font-family: "Times New Roman", Times, serif;
+  width: 80px;
+  height: 25px;
+  color: white;
+  border-radius: 0.6em;
+  cursor: pointer;
+  place-items: left;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.footer-section {
+  width: 50%;
+}
+.footer-section img {
+  width: 30px;
+  height: 30px;
+}
+h6 {
+  padding: 10px 10px;
+  font-size: 15px;
+}
+#sebelah {
+  text-align: right;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+#catatan {
+  text-align: center;
+  color: rgb(77, 7, 148);
+  background-color: rgb(229, 212, 247);
+}
